@@ -263,7 +263,6 @@ namespace CardShopCoop.Modules.World
             if (IsHost)
             {
                 s_dirty = true;
-                Current?.FlushHostMutation(dayRoll: false);
             }
         }
 
